@@ -1,3 +1,6 @@
+# とほほのPython入門 - 構文
+# https://www.tohoho-web.com/python/syntax.html#hello_world
+
 # Hello Worldの書き方
 print('Hello World!')
 
@@ -10,6 +13,17 @@ total = 123 \
       + 456 \
       + 789
 print("total result:", total)
+
+month = ['Jan', 'Feb', 'Mar', 'Apr', # ここにはコメントの記述が可能
+         'Jun', 'Jul', 'Aug', 'Sep', # ここにはコメントの記述が可能
+         'Oct', 'Nov', 'Dec']
+print("months:", month)
+
+a = 3
+if a == 5:
+  print("aの値は5です")
+elif a == 3:
+  print("aの値は3です")
 
 print("My name is %s." % "Tanaka")
 print("%s is %d years old." % ("Tanaka", 28))
